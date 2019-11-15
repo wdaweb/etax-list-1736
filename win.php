@@ -9,16 +9,23 @@
     <link rel="stylesheet" href="./css/style.css">
     <style>
     .B{
-        position:relative;top:50px;
+        position:relative;top:5px;
+        width:800px;
+        height:500px;
     }
+
     </style>
 </head>
 <body>
     <div id="bg">
+     
+    <h1>統一發票中獎名單</h1>
+ 
         <div class="B">
 <form action="win_.php" method="post">
+   
+  
     <table>
-    <h1>統一發票中獎名單</h1>
         <tr>
             <td>年度</td>
             <td >  <input type="text" name="year"> </td>
@@ -102,7 +109,7 @@
         </tr>
        <tr>
        <td colspan="3"><br>
-       <a href="ind.php">回首頁</a>
+       <a href="index.php">回首頁</a>
        </td>
        </tr>
     </table>

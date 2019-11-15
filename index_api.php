@@ -63,7 +63,7 @@ if(!empty($_POST['year'])||(!empty($_POST['mon']))){
   </tr>
  
   <div class="right">
-  <a href="ind.php">繼續輸入</a>
+  <a href="index.php">繼續輸入</a>
   </div>
 </table>
 <?php

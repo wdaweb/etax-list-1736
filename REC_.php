@@ -7,13 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
  <style>
+        
      
-     .A{
-            width:700px;
-            height:700px;
-            border-radius:50%;
-            overflow:auto;
+     .B{
+            width:80%;
+            position:relative;
+            padding:20px 10px 30px 10px;
+            position:relative;top:10px;
      }
+      .C{
+        border-left:5px solid rgba(18, 2, 247, 0.904);
+        text-shadow:0px 1px 5px blue;
+        padding-left:10px;
+    }
  
  </style>
 </head>
@@ -35,7 +41,8 @@ $rows=$pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <div id="bg">
-<div class="A">
+ <h1>開始對獎</h1>
+<div class="B">
 <table>
 <tr>
     <td>2019年度</td>
@@ -48,7 +55,6 @@ $rows=$pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 </table>
 
 
-<h1>開始對獎</h1>
 <?php
 foreach ($rows  as $key) {
     
@@ -102,13 +108,13 @@ foreach ($rows  as $key) {
     }else{
         echo "沒有中獎";
         echo $key['num'];
-        echo "<br>";
+        echo "<br>" ."<br>";
     }
     }
     
     ?>
-    <a href="ind.php" >上一頁</a>
 
+    <a href="REC.php" class="C">上一頁</a>
     </div>
 </div>
 </body>

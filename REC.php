@@ -35,7 +35,7 @@
             <td><a href="REC.php?id=6">11-12月</a></td>
         </tr>
         <tr>
-            <td><a href="ind.php?">回首頁</a></td>
+            <td><a href="index.php?">回首頁</a></td>
         </tr>
            
     </table>
@@ -136,7 +136,7 @@ $rows=$pdo->query($sql)->fetch();
         </tr>
        <tr>
        <td colspan="3"><br>
-       <a href="ind.php">回首頁</a>
+       <a href="index.php">回首頁</a>
        </td>
        </tr>
     </table>

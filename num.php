@@ -36,7 +36,7 @@
             <td><a href="num.php?id=6">11-12月</a></td>
         </tr>
         <tr>
-            <td><a href="ind.php?">回首頁</a></td>
+            <td><a href="index.php?">回首頁</a></td>
         </tr>
            
     </table>
